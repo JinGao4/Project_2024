@@ -10,93 +10,106 @@
     
     </head>
 
-<body>
-    <header>
-        <nav>
-            <div >
-                <a href="#">SmartGuide</a>
-            </div>
-
-            <div class="nav-list">
-                <ul>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Feature</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div >
-                <button >Log in</button>
-            </div>
-
-        </nav>
-    </header>
-
-    <div class="about">
-        <div>
-            <div>
-                <h1>What You Can Do With Us</h1>
-                <p>When you can’t understand the objective, we have reliable access to information of all 
-                    media for you to choose from.</p>
-                <button>Get Started</button>
-            </div>
-            <img src="images/doing.webp" alt="">
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <div>
-                <h3>Audio For Papers, Book & More</h3>
-                <p>Read & Listen to research text & audio simultaneously
-                    Listen to full text and audio summaries in your native language
-                    Listen to audio playlist of most cited papers</p>
-            </div>
-            <img src="images/audio.webp">
-        </div>
-
-        <div>
-            <div>
-                <h3>Paper Translations</h3>
-                <p>Don’t let language be a barrier in your research!Choose from 30+ languages to read research papers on R Discovery</p>
-            </div>
-            <img src="images/trans.webp">
-        </div>
-
-        <div>
-            <div>
+    <body>
+        <header>
+            <nav class="navbar container-fluid bg-black justify-content-around">
                 <div>
-                    <h4>Collaboration</h4>
-                    <p>Collaborate on SmartGuide to create projects with lab mates and friends, sharing insights and fostering a sense of community.</p>
+                    <a href="homepage.html">SmartGuide</a>
                 </div>
-                <img src="images/team.webp">
-            </div>
-            <div>
-                <div>
-                    <h4>Multi Platform</h4>
-                    <p>Share your findings across different platforms, allowing others to see and benefit from the insights and resources you've discovered.</p>
+
+                <div class="nav-list d-flex text-light ">
+                    <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+
+                    <a class="nav-link " href="featurepage.html">Feature</a>
+
+                    <a class="nav-link" href="aboutpage.html">Teams</a>
+
+                    <a class="nav-link" href="resourcespage.html">Resources</a>
                 </div>
-                <img src="images/platfrom.png">
+
+                <div >
+                    <button class="btn btn-outline-light" type="submit">Log in</button>
+                </div>
+
+            </nav>
+        </header>
+
+        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <div class="card-body">
+                                <h1 class="card-title">What You Can Do With Us</h1>
+                                <p class="card-text">When you can’t understand the objective, we have reliable access to information of all 
+                                    media for you to choose from.</p>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <footer>
+        <div>
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <div class="card-body">
+                                <h1 class="card-title">Audio For Papers, Book & More</h1>
+                                <p class="card-text">Read & Listen to research text & audio simultaneously
+                                    Listen to full text and audio summaries in your native language
+                                    Listen to audio playlist of most cited papers</p>
+                            </div>
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    </footer>
-</body>
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <div class="card-body">
+                                <h1 class="card-title">Paper Translations</h1>
+                                <p class="card-text">Don’t let language be a barrier in your research!Choose from 30+ languages to read research papers on R Discovery</p>
+                            </div>
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="card bg-primary">
+                            <div class="card-body text-light">
+                                <h5 class="card-title">Collaboration</h5>
+                                <p class="card-text">Collaborate on SmartGuide to create projects with lab mates and friends, sharing insights and fostering a sense of community.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 ">
+                        <div class="card">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Multi Platform</h5>
+                                <p class="card-text">Share your findings across different platforms, allowing others to see and benefit from the insights and resources you've discovered.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+        </footer>
+    </body>
 </html>

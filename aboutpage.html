@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,86 +9,105 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>CDN iocn bootstrap demo</title>
     </head>
-<body>
-    <header>
-        <nav>
-            <div >
-                <a href="#">SmartGuide</a>
-            </div>
 
-            <div class="nav-list">
-                <ul>
+    <body>
+        <header>
+            <nav class="navbar container-fluid bg-black justify-content-around">
+                <div>
+                    <a href="homepage.html">SmartGuide</a>
+                </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+                <div class="nav-list d-flex text-light ">
+                    <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Feature</a>
-                    </li>
+                    <a class="nav-link " href="featurepage.html">Feature</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
-                    </li>
+                    <a class="nav-link" href="aboutpage.html">Teams</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
-                    </li>
+                    <a class="nav-link" href="resourcespage.html">Resources</a>
+                </div>
 
-                </ul>
-            </div>
+                <div >
+                    <button class="btn btn-outline-light" type="submit">Log in</button>
+                </div>
 
-            <div >
-                <button >Log in</button>
-            </div>
+            </nav>
+        </header>
 
-        </nav>
-    </header>
-
-    <div class="about">
-        <div>
-            <div>
-                <h1>What We Do For You</h1>
-                <p>We help you understand objectives, conduct quick and efficient research using various media, and connect across multiple platforms.</p>
-                <button>Get Started</button>
-            </div>
-            <img src="images/searching.png" alt="">
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <div>
-                <h2>Understanding objectives</h2>
-                <p>Use summary to enhance understanding of objects and their significance.</p>
+        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <div class="card-body">
+                                <h2>Get in Touch</h2>
+                                <h1 class="card-title">What We Do For You</h1>
+                                <p class="card-text">We help you understand objectives, conduct quick and efficient research using various media, and connect across multiple platforms.</p>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div>
-            <div>
-                <h2>Various Media Across the World</h2>
-                <p>Explore various media forms that connect across the world.</p>
-            </div>
-        </div>
 
-        <div>
-            <div>
-                <h2>Share You Findings</h2>
-                <p>Share your findings to enhance collaboration and promote knowledge exchange.</p>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <img src="images/neuro.png" alt="">
-        <div>
-            <h2>Help with Neurodivergent  </h2>
-            <p>SmartGuide supports neurodivergent individuals with tailored resources, fosters collaboration, and promotes understanding. Users can share insights, access tools, and connect with a supportive community.</p>
-        </div>
-    </div>
-
-    <footer>
+        <div class="container-fluid text-light">
+            <div class="container-xl">
+                <div class="row my-5">
+                    <div class="col-md-4 ">
+                        <div class="card bg-primary">
+                            <div class="card-body text-light">
+                                <h5 class="card-title">Understanding objectives</h5>
+                                <p class="card-text">Use summary to enhance understanding of objects and their significance.</p>
+                            </div>
+                        </div>
+                    </div>
         
-    </footer>
-</body>
+                    <div class="col-md-4 ">
+                        <div class="card">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Various Media Across the World.</h5>
+                                <p class="card-text">Explore various media forms that connect across the world.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 ">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Share You Findings</h5>
+                                <p class="card-text">Share your findings to enhance collaboration and promote knowledge exchange.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                            <div class="card-body">
+                                <h2>Get in Touch</h2>
+                                <h1 class="card-title">Help with Neurodivergent</h1>
+                                <p class="card-text">SmartGuide supports neurodivergent individuals with tailored resources, fosters collaboration, and promotes understanding. Users can share insights, access tools, and connect with a supportive community.</p>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+        </footer>
+    </body>
 </html>

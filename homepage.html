@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>CDN iocn bootstrap</title>
 
     <!-- -->
@@ -16,31 +16,19 @@
     <body>
 
         <header>
-            <nav>
+            <nav class="navbar container-fluid bg-black justify-content-around">
                 <div>
-                    <a href="#">SmartGuide</a>
+                    <a href="homepage.html">SmartGuide</a>
                 </div>
 
-                <div class="nav-list">
-                    <ul>
+                <div class="nav-list d-flex text-light ">
+                    <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
+                    <a class="nav-link " href="featurepage.html">Feature</a>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Feature</a>
-                        </li>
+                    <a class="nav-link" href="aboutpage.html">Teams</a>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Teams</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Resources</a>
-                        </li>
-
-                    </ul>
+                    <a class="nav-link" href="resourcespage.html">Resources</a>
                 </div>
 
                 <div >
@@ -50,98 +38,142 @@
             </nav>
         </header>
 
-        <div class="intro">
-            <div>
-                <h1>Find What You’re Looking For</h1>
-                <p>When you can’t understand the objective, we have reliable access to information of all media for you to choose from.</p>
-                <button>Get Started</button>
-            </div>
-
-            <img src="images/image1.webp" alt="Two people searching" >
-        </div>
-
-        <div class="three box">
-            <div>
-                <div>
-                    <h2>Save Time And Stay On Track.</h2>
-                    <p>Students can save time and stay focused on their goals.</p>
-                </div>
-                <div>
-                    <img src="images/time.webp" alt="time">
-                    <button></button>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h2>Set Higher Goals And Generate Better Ideas.</h2>
-                    <p>Set ambitious goals and come up with innovative ideas.</p>
-                </div>
-                <div>
-                    <img src="images/Goal.webp" alt="goal">
-                    <button></button>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h2>Assist Others In Creating Better.</h2>
-                    <p>Help others create something better.</p>
-                </div>
-                <div>
-                    <img src="images/support.webp" alt="support">
-                    <button></button>
+        <div class="container-fluid bg-image py-5" style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col-md-6 ">
+                        <div class="card py-5">
+                            <div class="card-body">
+                                <h1 class="card-title">Find What You’re Looking For</h1>
+                                <p class="card-text">When you can’t understand the objective, we have reliable access to information of all media for you to choose from.</p>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/image1.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div>
-            <div>
-                <div>
-                    <h3>Share you’re research</h3>
-                    <p>Sharing your research on different platforms and connecting with 
-                        a larger community to promote collaboration and idea exchange.</p>
-                    <button>Read More</button>
+        <div class="container-fluid text-light">
+            <div class="container-xl">
+                <div class="row my-5">
+                    <div class="col-md-4 col-cm-6">
+                        <div class="card bg-primary">
+                            <div class="card-body text-light">
+                                <h5 class="card-title">Save Time And Stay On Track.</h5>
+                                <p class="card-text">Students can save time and stay focused on their goals.</p>
+                                <a href="#" class="btn btn-light">Go somewhere</a>
+                            </div>
+                            <img src="images/time.webp" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 col-cm-6">
+                        <div class="card">
+                            <img src="images/Goal.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Set Higher Goals And Generate Better Ideas.</h5>
+                                <p class="card-text">Set ambitious goals and come up with innovative ideas.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 col-cm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Assist Others In Creating Better.</h5>
+                                <p class="card-text">Help others create something better.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                            <img src="images/support.webp" class="card-img-top" alt="...">
+                        </div>
+                    </div>
                 </div>
-                <img src="images/image2.webp">
             </div>
-
-            <div>
-                <div>
-                    <h3>Help with Neurodivergent  </h3>
-                    <p>Our app offers resources and support designed to assist neurodivergent
-                        individuals in their learning and personal growth.</p>
-                    <button>Read More</button>
-                </div>
-                <img src="images/image3.png">
-            </div>
-
-            <div>
-                <div>
-                    <h3>What Resource Is There</h3>
-                    <p>Our app provides various resources like videos, documents, books,
-                        journals, magazines, articles, and more to help with your research 
-                        and learning.</p>
-                    <button>Read More</button>
-                </div>
-                
-                <div>
-                    <img src="images/doc.webp">
-                    <img src="images/info.webp">
-                    <img src="images/search.webp">
-                    <img src="images/vid.webp">
-                </div>
-            </div>
-    
         </div>
 
-        <div>
-            <img src="images/welcome.webp">
-            <div>
-                <h2>Get in Touch</h2>
-                <h1>Join us to support others</h1>
-                <p>Join our team and support others in their learning journey!</p>
-            </div>
+        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
+                <div class="container-xl justify-content-evenly">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 ">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="card-title">Share you’re research</h1>
+                                    <p class="card-text">Sharing your research on different platforms and connecting with 
+                                        a larger community to promote collaboration and idea exchange.</p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/image2.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-xl justify-content-evenly">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="images/image3.png" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="card-title">Help with Neurodivergent</h1>
+                                    <p class="card-text">Our app offers resources and support designed to assist neurodivergent
+                                        individuals in their learning and personal growth.</p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-xl justify-content-evenly">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 ">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="card-title">What Resource Is There</h1>
+                                    <p class="card-text">Our app provides various resources like videos, documents, books,
+                                        journals, magazines, articles, and more to help with your research 
+                                        and learning.</p>
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex flex-row ">
+                            <div class="col-md-3">
+                                <img src="images/image1.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                                <img src="images/image1.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/image1.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                                <img src="images/image1.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                            <div class="card-body">
+                                <h2>Get in Touch</h2>
+                                <h1 class="card-title">Join us to support others</h1>
+                                <p class="card-text">Join our team and support others in their learning journey!</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
 
         <footer>

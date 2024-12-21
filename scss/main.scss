@@ -1,37 +1,100 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 
-$primary: pink;
+$primary: #1976D2;
 
 
 
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 
 
-$custom-colors: (
-    "tertiary": orange,
-    "tertiary-light": rgb(233, 127, 210),
-    "tertiary-dark" : rgb(231, 113, 113)
+
+// $custom-colors: (
+//     "tertiary": orange,
+//     "tertiary-light": rgb(233, 127, 210),
+//     "tertiary-dark" : rgb(231, 113, 113)
+// );
+
+// $theme-colors: map-merge($theme-colors,$custom-colors);
+
+// // this is a each loop,
+// @each $color, $value in $colors{
+//     // this loops use select backgroud color in bootstrap ep pink 
+//     .bg-#{$color}{
+//         background-color: $value 
+//     }
+//     // then get the value light u can chage the light value ep pink to 60%
+//     .bg-#{$color}-light{
+//         background-color: tint-color($value , 60%)
+//     }
+//     //this can change for the dark value as well
+//     .bg-#{$color}-dark{
+//         background-color: tint-color($value , 20%)
+//     }
+// };
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// stylelint-enable value-keyword-case
+$font-family-base:            var(--#{$prefix}font-sans-serif);
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root:              null;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875;
+$font-size-lg:                $font-size-base * 1.25;
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+$font-weight-base:            $font-weight-normal;
+
+$line-height-base:            1.5;
+$line-height-sm:              1.25;
+$line-height-lg:              2;
+
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+$font-sizes: (
+    1: $h1-font-size,
+    2: $h2-font-size,
+    3: $h3-font-size,
+    4: $h4-font-size,
+    5: $h5-font-size,
+    6: $h6-font-size
 );
 
-$theme-colors: map-merge($theme-colors,$custom-colors);
 
-// this is a each loop,
-@each $color, $value in $colors{
-    // this loops use select backgroud color in bootstrap ep pink 
-    .bg-#{$color}{
-        background-color: $value 
-    }
-    // then get the value light u can chage the light value ep pink to 60%
-    .bg-#{$color}-light{
-        background-color: tint-color($value , 60%)
-    }
-    //this can change for the dark value as well
-    .bg-#{$color}-dark{
-        background-color: tint-color($value , 20%)
-    }
-};
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
 
 
 

@@ -1,3 +1,35 @@
 {
-    "liveServer.settings.port": 5501
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "files.autoSave": "afterDelay",
+    "liveSassCompile.settings.formats": [
+
+
+        {
+            // "format": "expanded",
+            // "extensionName": ".css",
+            // "savePath": null,
+            // "savePathReplacementPairs": null
+
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.editorAssociations": {
+        "*.jar": "default"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveSassCompile.settings.includeItems": [
+        
+    ],
+    // "liveSassCompile.settings.includeItems": []
 }

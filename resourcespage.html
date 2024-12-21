@@ -9,66 +9,64 @@
         <title>CDN iocn bootstrap demo</title>
     
     </head>
-<body>
-    <header>
-        <nav>
-            <div >
-                <a href="#">SmartGuide</a>
-            </div>
+    <body>
+        <header>
+            <nav class="navbar container-fluid bg-black justify-content-around">
+                <div>
+                    <a href="homepage.html">SmartGuide</a>
+                </div>
 
-            <div class="nav-list">
-                <ul>
+                <div class="nav-list d-flex text-light ">
+                    <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+                    <a class="nav-link " href="featurepage.html">Feature</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Feature</a>
-                    </li>
+                    <a class="nav-link" href="aboutpage.html">Teams</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
-                    </li>
+                    <a class="nav-link" href="resourcespage.html">Resources</a>
+                </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
-                    </li>
+                <div >
+                    <button class="btn btn-outline-light" type="submit">Log in</button>
+                </div>
 
-                </ul>
-            </div>
+            </nav>
+        </header>
 
-            <div >
-                <button >Log in</button>
-            </div>
-
-        </nav>
-    </header>
-
-    <div class="about">
-        <div>
-            <div>
-                <h1>What You Can Do With Us</h1>
-                <p>When you can’t understand the objective, we have reliable access to information of all 
-                    media for you to choose from.</p>
-                <button>Get Started</button>
-            </div>
-            <img src="images/media.png" alt="">
-        </div>
-    </div>
-
-    <div></div>
-
-    <div class="about">
-        <div>
-            <img src="images/message.webp" alt="">
-            <div>
-                <h1>What You Can Do With Us</h1>
-                <p>When you can’t understand the objective, we have reliable access to information of all 
-                    media for you to choose from.</p>
-                <button>Get Started</button>
+        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <div class="card d-flex flex-row">
+                            <div class="card-body">
+                                <h1 class="card-title">What You Can Do With Us</h1>
+                                <p class="card-text">When you can’t understand the objective, we have reliable access to information of all 
+                                    media for you to choose from.</p>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</body>
+
+        <div></div>
+
+        <div class="container-xl justify-content-evenly">
+            <div class="row align-items-center">
+                <div class="col ">
+                    <div class="card d-flex flex-row">
+                        <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
+                        <div class="card-body">
+                            <h2>Get in Touch</h2>
+                            <h1 class="card-title">Join us to support others</h1>
+                            <p class="card-text">Join our team and support others in their learning journey!</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
