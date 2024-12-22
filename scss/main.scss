@@ -2,7 +2,7 @@
 
 
 $primary: #1976D2;
-$secondary: #bababa;
+$secondary_color: #bababa;
 
 
 
@@ -13,8 +13,16 @@ $secondary: #bababa;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 $font-famliy-sans-serif: "Inter",sans-serif;
+
+body{
+    color: $secondary_color;
+}
+
+h1{
+    font-size: dispaly-2;
+}
+
 
 $grid-breakpoints: (
     xs: 0,
