@@ -12,64 +12,57 @@
 
     <body>
         <header>
-            <nav class="navbar container-fluid bg-black justify-content-around">
+            <nav class="navbar container-fluid bg-black justify-content-around py-4">
                 <div>
-                    <a href="homepage.html">SmartGuide</a>
+                    <a href="homepage.html" class="">SmartGuide</a>
                 </div>
-
+    
                 <div class="nav-list d-flex text-light ">
-                    <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
-
-                    <a class="nav-link " href="featurepage.html">Feature</a>
-
-                    <a class="nav-link" href="aboutpage.html">Teams</a>
-
-                    <a class="nav-link" href="resourcespage.html">Resources</a>
+                    <a class="nav-link active px-4" aria-current="page" href="homepage.html">Home</a>
+    
+                    <a class="nav-link px-4" href="aboutpage.html">About</a>
+    
+                    <a class="nav-link px-4" href="featurepage.html">Feature</a>
+    
                 </div>
-
-                <div >
+    
+                <div>
                     <button class="btn btn-outline-light" type="submit">Log in</button>
                 </div>
-
+    
             </nav>
         </header>
 
-        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
-            <div class="container-xl justify-content-evenly">
-                <div class="row align-items-center">
-                    <div class="col ">
-                        <div class="card d-flex flex-row">
-                            <div class="card-body">
-                                <h2>Get in Touch</h2>
-                                <h1 class="card-title">What We Do For You</h1>
-                                <p class="card-text">We help you understand objectives, conduct quick and efficient research using various media, and connect across multiple platforms.</p>
-                                <a href="#" class="btn btn-primary">Get Started</a>
-                            </div>
-                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
-                        </div>
+        <section class="container-fluid bg-image " style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly py-5">
+                <div class="card d-flex flex-row align-items-center">
+                    <div class="card-body">
+                        <h1 class="card-title display-3 fw-bold">What We Do For You</h1>
+                        <p class="card-text py-4">We help you understand objectives, conduct quick and efficient research using various media, and connect across multiple platforms.</p>
+                        <a href="#" class="btn btn-primary">Get Started</a>
                     </div>
+                    <img src="images/searching.png" alt="decorative woman talking stairs" class="w-50">
                 </div>
-            </div>
-        </div>
+            </div>    
+        </section>
 
 
-        <div class="container-fluid text-light">
+        <section class="container-fluid text-light">
             <div class="container-xl">
-                <div class="row my-5">
-                    <div class="col-md-4 ">
-                        <div class="card bg-primary">
-                            <div class="card-body text-light">
-                                <h5 class="card-title">Understanding objectives</h5>
+                <div class="card-group row my-5">
+                    <div class="col-md-4">
+                        <div class="card bg-light py-5">
+                            <div class="card-body">
+                                <h3 class="card-title">Understanding objectives</h3>
                                 <p class="card-text">Use summary to enhance understanding of objects and their significance.</p>
                             </div>
                         </div>
                     </div>
         
                     <div class="col-md-4 ">
-                        <div class="card">
-                            
+                        <div class="card py-4">
                             <div class="card-body">
-                                <h5 class="card-title">Various Media Across the World.</h5>
+                                <h3 class="card-title">Various Media Across the World.</h3>
                                 <p class="card-text">Explore various media forms that connect across the world.</p>
                                 
                             </div>
@@ -77,37 +70,73 @@
                     </div>
         
                     <div class="col-md-4 ">
-                        <div class="card">
+                        <div class="card bg-light py-5">
                             <div class="card-body">
-                                <h5 class="card-title">Share You Findings</h5>
+                                <h3 class="card-title">Share You Findings</h3>
                                 <p class="card-text">Share your findings to enhance collaboration and promote knowledge exchange.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
-            <div class="container-xl justify-content-evenly">
-                <div class="row align-items-center">
-                    <div class="col ">
-                        <div class="card d-flex flex-row">
-                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
-                            <div class="card-body">
-                                <h2>Get in Touch</h2>
-                                <h1 class="card-title">Help with Neurodivergent</h1>
-                                <p class="card-text">SmartGuide supports neurodivergent individuals with tailored resources, fosters collaboration, and promotes understanding. Users can share insights, access tools, and connect with a supportive community.</p>
-                                <a href="#" class="btn btn-primary">Get Started</a>
-                            </div>
-                        </div>
+        <section class="container-fluid bg-image " style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly py-5">
+                <div class="card d-flex flex-row align-items-center py-5">
+                    <img src="images/neuro.png" alt="decorative woman talking stairs" class="w-50">
+                    <div class="card-body">
+                        <h1 class="card-title fw-semibold">Help with Neurodivergent</h1>
+                        <p class="card-text">SmartGuide supports neurodivergent individuals with tailored resources, fosters collaboration, and promotes understanding. Users can share insights, access tools, and connect with a supportive community.</p>
+                        <a href="#" class="btn btn-primary">Get Started</a>
                     </div>
                 </div>
+            </div>    
+        </section>
+
+        <footer class="container-fluid bg-black">
+            <div class="container-xl text-light d-flex justify-content-between">
+                <div class="py-5">
+                    <h4>SmartGuide</h4>
+                    <h2>Secure, Speedy, and Always
+                        Accessible</h2>
+                </div>
+    
+                <div class="d-flex align-items-baseline py-5">
+                    <ul>
+                        <li class="list-unstyled"><h5>Company</h5></li>
+                        <li class="list-unstyled">About Us</li>
+                        <li class="list-unstyled">Careers</li>
+                    </ul>
+    
+                    <ul>
+                        <li class="list-unstyled"><h5>Support</h5></li>
+                        <li class="list-unstyled">Help Center</li>
+                    </ul>
+    
+                    <ul>
+                        <li class="list-unstyled"><h5>Follow Us</h5></li>
+                        <li class="list-unstyled">Facebook</li>
+                        <li class="list-unstyled">x.com</li>
+                        <li class="list-unstyled">Instagram</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-
-        <footer>
-
+    
+            <div class="container-xl text-light d-flex justify-content-between">
+                <div class="py-5">
+                    <p>SmartGuide. @2024 All right</p>
+                </div>
+    
+                <div>
+                    <ul class="d-flex align-items-baseline py-5">
+                        <li class="list-unstyled">Terms of Service</li>
+                        <li class="list-unstyled">Policy service</li>
+                        <li class="list-unstyled">Cookie Policy</li>
+                        <li class="list-unstyled">Partners</li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

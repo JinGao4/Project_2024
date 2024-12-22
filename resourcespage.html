@@ -11,62 +11,137 @@
     </head>
     <body>
         <header>
-            <nav class="navbar container-fluid bg-black justify-content-around">
+            <nav class="navbar container-fluid bg-black justify-content-around py-4">
                 <div>
-                    <a href="homepage.html">SmartGuide</a>
+                    <a href="homepage.html" class="">SmartGuide</a>
                 </div>
-
+    
                 <div class="nav-list d-flex text-light ">
-                    <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
-
-                    <a class="nav-link " href="featurepage.html">Feature</a>
-
-                    <a class="nav-link" href="aboutpage.html">Teams</a>
-
-                    <a class="nav-link" href="resourcespage.html">Resources</a>
+                    <a class="nav-link active px-4" aria-current="page" href="homepage.html">Home</a>
+    
+                    <a class="nav-link px-4" href="aboutpage.html">About</a>
+    
+                    <a class="nav-link px-4" href="featurepage.html">Feature</a>
+    
+                    <a class="nav-link px-4" href="resourcespage.html">Resources</a>
                 </div>
-
-                <div >
+    
+                <div>
                     <button class="btn btn-outline-light" type="submit">Log in</button>
                 </div>
-
+    
             </nav>
         </header>
 
-        <div class="container-fluid bg-image text-light py-5 my-5" style="background-image: url('images/background.png')">
-            <div class="container-xl justify-content-evenly">
-                <div class="row align-items-center">
-                    <div class="col ">
-                        <div class="card d-flex flex-row">
+        <section class="container-fluid bg-image " style="background-image: url('images/background.png')">
+            <div class="container-xl justify-content-evenly py-5">
+                <div class="card d-flex flex-row align-items-center">
+                    <div class="card-body">
+                        <h1 class="card-title display-3 fw-bold">What We Do For You</h1>
+                        <p class="card-text py-4">We help you understand objectives, conduct quick and efficient research using various media, and connect across multiple platforms.</p>
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <img src="images/searching.png" alt="decorative woman talking stairs" class="w-50">
+                </div>
+            </div>    
+        </section>
+
+        <section class="container-fluid">
+            <div class="container-xl py-5">
+
+                <h2>What are you looking for today</h2>
+                <p>SmartGuide have reliable access to information of all media for you to choose from.</p>
+
+                <div class="row">
+                    <div class="col-md-2 bg-light">
+                        <div class="card bg-light">
                             <div class="card-body">
-                                <h1 class="card-title">What You Can Do With Us</h1>
-                                <p class="card-text">When you can’t understand the objective, we have reliable access to information of all 
-                                    media for you to choose from.</p>
-                                <a href="#" class="btn btn-primary">Get Started</a>
+                                <h4 class="card-title">Doc</h4>
+                                <img src="images/docs.webp" class="w-50">
                             </div>
-                            <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
                         </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Video</h4>
+                        <img src="images/video.webp" class="w-50">
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Books</h4>
+                        <img src="images/book.webp" class="w-50">
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Articles</h4>
+                        <img src="images/Acticles.webp" class="w-50">
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Magazines</h4>
+                        <img src="images/magazines.webp" class="w-50">
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Presentations</h4>
+                        <img src="images/presentation.webp" class="w-50">
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div></div>
-
-        <div class="container-xl justify-content-evenly">
-            <div class="row align-items-center">
-                <div class="col ">
-                    <div class="card d-flex flex-row">
-                        <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid" >
-                        <div class="card-body">
-                            <h2>Get in Touch</h2>
-                            <h1 class="card-title">Join us to support others</h1>
-                            <p class="card-text">Join our team and support others in their learning journey!</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
+        <section class="container-fluid bg-image " style="background-image: url('images/background.png')">
+            <div class="container-xl py-5">
+                <div class="card d-flex flex-row align-items-center bg-light">
+                    <img src="images/welcome.webp" alt="decorative woman talking stairs" class="img-fluid">
+                    <div class="card-body">
+                        <h2>Get in Touch</h2>
+                        <h1 class="card-title display-2 fw-semibold">Join us to support others</h1>
+                        <p class="card-text">Join our team and support others in their learning journey!</p>
+                        <a class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <footer class="container-fluid bg-black">
+            <div class="container-xl text-light d-flex justify-content-between">
+                <div class="py-5">
+                    <h4>SmartGuide</h4>
+                    <h2>Secure, Speedy, and Always
+                        Accessible</h2>
+                </div>
+    
+                <div class="d-flex align-items-baseline py-5">
+                    <ul>
+                        <li class="list-unstyled"><h5>Company</h5></li>
+                        <li class="list-unstyled">About Us</li>
+                        <li class="list-unstyled">Careers</li>
+                    </ul>
+    
+                    <ul>
+                        <li class="list-unstyled"><h5>Support</h5></li>
+                        <li class="list-unstyled">Help Center</li>
+                    </ul>
+    
+                    <ul>
+                        <li class="list-unstyled"><h5>Follow Us</h5></li>
+                        <li class="list-unstyled">Facebook</li>
+                        <li class="list-unstyled">x.com</li>
+                        <li class="list-unstyled">Instagram</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="container-xl text-light d-flex justify-content-between">
+                <div class="py-5">
+                    <p>SmartGuide. @2024 All right</p>
+                </div>
+    
+                <div>
+                    <ul class="d-flex align-items-baseline py-5">
+                        <li class="list-unstyled">Terms of Service</li>
+                        <li class="list-unstyled">Policy service</li>
+                        <li class="list-unstyled">Cookie Policy</li>
+                        <li class="list-unstyled">Partners</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
